@@ -1,38 +1,81 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: auto;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  padding: 0%;
+  margin: 0%;
+  background-color: rgb(30, 30, 30);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cryptoHeader {
+  width: 100%;
+  height: 150px;
+  background-color: rgb(255, 141, 100);
+  padding: 15px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(255, 141, 100);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 35px;
+  padding-top: 15px;
+  font-family: Helvetica, sans-serif;
+  font-size: 50px;
+}
+
+.cryptoHeader input {
+  width: 55%;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(30, 30, 30);
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cryptoBody {
+ margin-top: 20px;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+
+.coin {
+  width: 550px;
+  height: 300px;
+  background-color: rgb(30, 30, 30);
+  color: azure;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+  padding: 5px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.coin:hover {
+  transform: translate3d(0, -5px, 0);
+}
+
+.coin img {
+  height: 60px;
+  width: auto;
 }
