@@ -5,7 +5,6 @@ CoinBase is a web application that allows you to track your favorite cryptocurre
 # Features
 
 - View real-time price of 100s of cryptocurrencies
-- Monitor price changes, market trends, and news updates for your watchlist
 - Search for cryptocurrencies by name
 - Responsive design for desktop and mobile devices
 
