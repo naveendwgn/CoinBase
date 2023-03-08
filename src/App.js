@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <nav>
-        <h1>CoinBase</h1>
+        <h1>CoinVine</h1>
       </nav>
       <div className='cryptoHeader'>
         <input type='text' placeholder='Search Cryto' onChange={(event) => {setSearchWord(event.target.value)}}/>

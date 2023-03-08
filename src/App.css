@@ -51,28 +51,28 @@ nav {
 .cryptoBody {
  margin-top: 20px;
  display: flex;
+ flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   padding: 10px;
 }
 
 
 .coin {
-  width: 550px;
-  height: 300px;
+  width: 500px;
+  height: 270px;
   background-color: rgb(30, 30, 30);
   color: azure;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.65) 0px 5px 15px;
   border-radius: 10px;
   margin: 10px;
   text-align: center;
   padding: 5px;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .coin:hover {
-  transform: translate3d(0, -5px, 0);
+  transform: translate3d(0, -10px, 0);
 }
 
 .coin img {
