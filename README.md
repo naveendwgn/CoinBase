@@ -1,6 +1,6 @@
-# CoinBase
+# CoinVine
 
-CoinBase is a web application that allows you to track your favorite cryptocurrencies in real-time. With CoinBase, you can easily monitor price changes for over 100s of cryptocurrencies.
+CoinVine is a web application that allows you to track your favorite cryptocurrencies in real-time. With CoinVine, you can easily monitor prices of over 100s of cryptocurrencies.
 
 # Features
 
